@@ -1,0 +1,10 @@
+@import '../../root.scss';
+
+.header {
+  padding: 10px;
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
