@@ -1,11 +1,11 @@
 import { type FC } from 'react';
-import { Header } from '../Header';
 import { Outlet } from 'react-router';
+import { HeaderEmployee } from '../HeaderEmployee';
 
-export const Layout: FC = () => {
+export const LayoutEmployee: FC = () => {
   return (
     <>
-      <Header />
+      <HeaderEmployee />
       <main>
         <Outlet />
       </main>
