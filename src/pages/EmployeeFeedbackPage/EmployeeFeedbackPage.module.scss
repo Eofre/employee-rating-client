@@ -1,0 +1,14 @@
+@import '../../root.scss';
+
+.employeeFeedbackPage {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: flex-start;
+  }
+  .form {
+    margin: 0 auto;
+    width: 500px;
+  }
+}
