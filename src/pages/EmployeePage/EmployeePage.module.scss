@@ -1,4 +1,16 @@
-@import "../../root.scss";
+@import '../../root.scss';
 
 .employeePage {
+  .wrapper {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+  }
+
+  .feedback {
+    .title {
+      padding-bottom: 20px;
+    }
+  }
 }
