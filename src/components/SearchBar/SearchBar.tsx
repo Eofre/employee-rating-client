@@ -1,7 +1,7 @@
 import { type FC } from 'react';
 import classes from './SearchBar.module.scss';
 import { BsSearchHeart } from 'react-icons/bs';
-import { MyInput } from '../MyInput';
+import { MyInput } from '../UI/MyInput';
 
 interface SearchBarProps {
   value: string;

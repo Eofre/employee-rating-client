@@ -1,0 +1,8 @@
+@import '../../root.scss';
+
+.list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 5px;
+}

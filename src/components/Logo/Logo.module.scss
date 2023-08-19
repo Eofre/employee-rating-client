@@ -4,4 +4,12 @@
   color: red;
   font-weight: 700;
   font-size: 30px;
+  // display: flex;
+  // flex-direction: column;
+
+  span {
+    font-size: 20px;
+    color: $text-primary-color;
+    // padding-left: 35px;
+  }
 }

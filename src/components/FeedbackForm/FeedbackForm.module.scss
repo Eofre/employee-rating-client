@@ -1,0 +1,13 @@
+@import '../../root.scss';
+
+.feedbackForm {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+
+  .title {
+    padding-bottom: 15px;
+    text-align: center;
+  }
+}

@@ -9,8 +9,10 @@
   }
 
   .feedback {
-    .title {
-      padding-bottom: 20px;
-    }
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    // align-items: flex-start;
+    gap: 30px;
   }
 }

@@ -4,7 +4,7 @@ import classes from './Logo.module.scss';
 export const Logo: FC = () => {
   return (
     <a className={classes.logo} href="#">
-      ТТК
+      ТТК<span> отзыв</span>
     </a>
   );
 };

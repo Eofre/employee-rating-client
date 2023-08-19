@@ -1,0 +1,9 @@
+@import '../../../root.scss';
+
+.myTextarea {
+  resize: none;
+  background-color: $background-link-color-hover;
+  border-radius: 7px;
+  border: 1px solid $text-link-color;
+  padding: 10px;
+}

@@ -10,8 +10,8 @@ body {
   font-family: 'Montserrat', sans-serif;
   font-size: 17px;
   font-weight: 400;
-  // color: $text-primary-color;
-  // background-color: $background-accent-color;
+  color: $text-primary-color;
+  background-color: $background-accent-color;
 }
 
 section {
@@ -40,7 +40,8 @@ button {
   font-weight: inherit;
 }
 
-input {
+input,
+textarea {
   border: none;
   background-color: transparent;
   color: inherit;
