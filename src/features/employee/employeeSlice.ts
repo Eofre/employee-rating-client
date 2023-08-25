@@ -9,7 +9,7 @@ const initialState: IEmployeeState = {
 };
 
 export const fetchEmployees = createAsyncThunk('employee', async () => {
-  const response = await api.get<IEmployee[]>('/employee'); // Замените на ваш путь к API
+  const response = await api.get<IEmployee[]>('/employee');
   return response.data;
 });
 
